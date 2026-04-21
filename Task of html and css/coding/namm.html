@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kovai Pazhamudir Nizhayam</title>
+<style>
+   /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Body */
+body {
+    background: linear-gradient(to right, #fff7e6, #ffe6e6);
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navbar */
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: url("https://images.unsplash.com/photo-1610832958506-aa56368176cf") no-repeat center/cover;
+    position: relative;
+}
+
+/* Overlay */
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.overlay h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.shopbtn {
+    background: #ffcc00;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.shopbtn:hover {
+    background: #ff9900;
+    transform: scale(1.1);
+}
+/* About Section */
+#about {
+  padding: 60px;
+  background: linear-gradient(135deg, #f9f9f9, #e8f5e9);
+}
+
+/* Title */
+.about-title {
+  font-size: 34px;
+  color: #2e7d32;
+  margin-bottom: 25px;
+}
+
+/* About Box */
+.about-box {
+  width: 70%;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Highlight Text */
+.highlight {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+/* Hover Effect */
+.about-box:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+/* Contact Section Background */
+.contact-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #fdfdfd, #e8f5e9);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Title */
+.contact-section h2 {
+  font-size: 34px;
+  color: #2e7d32;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+/* Contact Box */
+.contact-box {
+  background: white;
+  width: 320px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: 0.3s;
+  text-align: left;
+}
+
+/* Hover Effect */
+.contact-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+
+/* Headings inside box */
+.contact-box h3 {
+  color: #1b5e20;
+  margin-bottom: 10px;
+}
+
+/* Text */
+.contact-box p {
+  color: #555;
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
+/* Links (Phone & Email) */
+.contact-box a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/*
+</style>
+</head>
+
+<body>
+
+<header>
+<h1><img src="C:\Users\laksh\Downloads\kpn.jpg" alt="kpn" width = "50%" height = "50%">KOVAI PAZHAMUDIR NILAYAM</h1>
+
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About us</a></li>
+<li><a href="#contact">Contact Us</a></li>
+</ul>
+</nav>
+</header>
+
+
+<section id="home" class="hero">
+
+<div class="overlay">
+
+<h2>Fresh Fruits Delivered to Your Home</h2>
+<p>Healthy • Natural • Farm Fresh</p>
+
+<a href="C:\Users\laksh\fruit2.html">Explore Fruits</a>
+
+</div>
+
+</section>
+<!-- About us -->
+ <section id="about">
+
+<center>
+
+<h2 class="about-title">About Us</h2>
+
+<div class="about-box">
+
+<p>
+<b>Kovai Pazhamudir Nilayam</b> is dedicated to delivering that
+<b>freshest fruits, juicy berries, healthy dry fruits,</b>
+and delicious combo packs directly to your doorstep.
+</p>
+
+<p>
+We carefully select trusted farms to ensure
+<strong>premium quality, rich taste, and natural freshness</strong>.
+Our mission is to make healthy eating easy, affordable,
+and accessible for everyone.
+</p>
+
+<p>
+From everyday fruits to exotic berries and special fruit combos,
+we bring <span class="highlight">nature's goodness</span>
+to every home with love and freshness.
+</p>
+
+</div>
+
+</center>
+
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section contact-section alt-bg">
+
+<h2>Contact Us</h2>
+
+<div class="contact-grid">
+
+<div class="contact-box">
+<h3>Store Address</h3>
+<p>Kovai Pazhamudir Nilayam</p>
+<p>123, Fruit Market Road</p>
+<p>Coimbatore, Tamil Nadu</p>
+</div>
+
+<div class="contact-box">
+<h3>Phone</h3>
+<p><a href="tel:+919876543210">+91 98765 43210</a></p>
+<p><a href="tel:+919123456789">+91 91234 56789</a></p>
+</div>
+
+<div class="contact-box">
+<h3>Email</h3>
+<p><a href="mailto:info@kovaipazhamudir.com">info@kovaipazhamudir.com</a></p>
+<p><a href="mailto:orders@kovaipazhamudir.com">orders@kovaipazhamudir.com</a></p>
+</div>
+
+<div class="contact-box">
+<h3>Working Hours</h3>
+<p>Monday - Sunday</p>
+<p>7:00 AM - 10:00 PM</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+</body>
+</html>
+
+

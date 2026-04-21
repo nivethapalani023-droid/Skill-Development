@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dry Fruits Collection</title>
+<style>
+    body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:linear-gradient(135deg,#fff3e0,#f3e5f5);
+}
+
+/* Section */
+
+.dryfruits{
+width:90%;
+margin:auto;
+padding:60px 0;
+text-align:center;
+}
+
+.dry-title{
+font-size:45px;
+color:#6d4c41;
+margin-bottom:10px;
+}
+
+.dry-subtitle{
+font-size:18px;
+color:#555;
+margin-bottom:40px;
+}
+
+/* Grid */
+
+.dry-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+/* Cards */
+
+.dry-card{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+transition:0.4s;
+}
+
+.dry-card:hover{
+transform:translateY(-10px) scale(1.05);
+}
+
+.dry-card img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+.dry-card h2{
+color:#bf360c;
+margin-bottom:10px;
+}
+
+.dry-card p{
+font-size:14px;
+color:#555;
+margin-bottom:10px;
+}
+
+.dry-card span{
+font-weight:bold;
+font-size:18px;
+color:#2e7d32;
+}
+</style>
+</head>
+
+<body>
+
+<section class="dryfruits">
+
+<h1 class="dry-title">🥜 Premium Dry Fruits</h1>
+<p class="dry-subtitle">Healthy • Natural • Energy Rich</p>
+
+<div class="dry-container">
+
+<div class="dry-card">
+<img src="C:\Users\laksh\Downloads\almond.jpg">
+<h2>Almonds</h2>
+<p>Rich in protein and healthy fats.</p>
+<span>₹750 / kg</span>
+</div>
+
+<div class="dry-card">
+<img src="C:\Users\laksh\Downloads\cashew.jpg">
+<h2>Cashews</h2>
+<p>Crunchy and delicious premium nuts.</p>
+<span>₹850 / kg</span>
+</div>
+
+<div class="dry-card">
+<img src="C:\Users\laksh\Downloads\pista.jpg">
+<h2>Pistachios</h2>
+<p>Nutritious green nuts full of flavor.</p>
+<span>₹900 / kg</span>
+</div>
+
+<div class="dry-card">
+<img src="C:\Users\laksh\Downloads\walnuts.jpg">
+<h2>Walnuts</h2>
+<p>Great for brain health and energy.</p>
+<span>₹820 / kg</span>
+</div>
+
+<div class="dry-card">
+<img src="C:\Users\laksh\Downloads\dates.jpg">
+<h2>Dates</h2>
+<p>Natural sweet fruit full of nutrients.</p>
+<span>₹300 / kg</span>
+</div>
+</div>
+
+</section>
+
+</body>
+</html>

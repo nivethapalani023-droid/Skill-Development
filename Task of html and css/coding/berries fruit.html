@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Berries Collection</title>
+<style>
+    *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#ffe6f0,#f3e5ff);
+}
+
+/* Section */
+
+.berries{
+width:90%;
+margin:auto;
+padding:60px 0;
+text-align:center;
+}
+
+/* Title */
+
+.title{
+font-size:45px;
+color:#8e024d;
+margin-bottom:10px;
+}
+
+.subtitle{
+color:#555;
+margin-bottom:40px;
+font-size:18px;
+}
+
+/* Grid */
+
+.berry-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+/* Cards */
+
+.berry-card{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+transition:0.4s;
+position:relative;
+overflow:hidden;
+}
+
+.berry-card:hover{
+transform:translateY(-10px) scale(1.05);
+}
+
+/* Image */
+
+.berry-card img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+/* Text */
+
+.berry-card h2{
+color:#d81b60;
+margin-bottom:10px;
+}
+
+.berry-card p{
+font-size:14px;
+color:#555;
+margin-bottom:10px;
+}
+
+.berry-card span{
+font-weight:bold;
+font-size:16px;
+color:#4a148c;
+}
+
+/* Hover glow effect */
+
+.berry-card::before{
+content:"";
+position:absolute;
+top:0;
+left:-100%;
+width:100%;
+height:100%;
+background:linear-gradient(120deg,transparent,rgba(255,255,255,0.6),transparent);
+transition:0.6s;
+}
+
+.berry-card:hover::before{
+left:100%;
+}
+</style>
+</head>
+
+<body>
+
+<section class="berries">
+
+<h1 class="title">🍓 Premium Berries Collection</h1>
+<p class="subtitle">Fresh • Healthy • Delicious</p>
+
+<div class="berry-container">
+
+<div class="berry-card">
+<img src="C:\Users\laksh\Downloads\s.jpg">
+<h2>Strawberry</h2>
+<p>Sweet and juicy strawberries perfect for desserts.</p>
+<span>₹180 / BOX</span>
+</div>
+
+<div class="berry-card">
+<img src="C:\Users\laksh\Downloads\bb.jpg">
+<h2>Blueberry</h2>
+<p>Antioxidant-rich berries for a healthy lifestyle.</p>
+<span>₹250 / BOX</span>
+</div>
+
+<div class="berry-card">
+<img src="C:\Users\laksh\Downloads\rb.jpg">
+<h2>Raspberry</h2>
+<p>Soft berries with a refreshing tangy taste.</p>
+<span>₹270 / BOX</span>
+</div>
+
+<div class="berry-card">
+<img src="C:\Users\laksh\Downloads\blackb.jpg">
+<h2>Blackberry</h2>
+<p>Dark and juicy berries full of natural flavor.</p>
+<span>₹260 / BOX</span>
+</div>
+
+<div class="berry-card">
+<img src="C:\Users\laksh\Downloads\gb.jpg">
+<h2>Gooseberry</h2>
+<p>Small fruit,huge antioxidants boost.</p>
+<span>₹200 / BOX</span>
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>
