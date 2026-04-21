@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors</title>
+
+    <style>
+        div{
+            background-color: brown;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        div:hover{
+            background-color: chartreuse;
+            color: blue;
+        }
+
+        input:focus{
+            background-color: chartreuse;
+            color: blue;
+        }
+
+        p:first-child{
+            background-color: red;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div>Hover me</div>
+
+    <input type="text">
+
+    <p>Hover class</p>
+
+</body>
+</html>
